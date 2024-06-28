@@ -1,0 +1,86 @@
+##DOM NAVIGATION
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Message in JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <ul id="fruits">
+        <li id="Apple">Apple</li>
+        <li id="Orange">Orange</li>
+        <li id="Banana">Banana</li>
+    </ul>
+
+    <ul id="Vegetables">
+        <li id="Carrots">Carrots</li>
+        <li id="Onions">Onions</li>
+        <li id="Potatoes">Potatoes</li>
+    </ul>
+
+    <ul id="Deserts">
+        <li id="Cake">Cake</li>
+        <li id="Pie">Pie</li>
+        <li id="IceCream">Ice Cream</li>
+    </ul>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+//...........  .firstElementChild.............
+// const ulElements=document.querySelectorAll('ul');
+// ulElements.forEach(ulElements=>{
+//     const firstCHild=ulElements.firstElementChild;
+//     firstCHild.style.backgroundColor="tomato";
+// });
+//...............  .lastElementChild..............
+// const element=document.getElementById('fruits');
+// const lastCHild=element.lastElementChild;
+// lastCHild.style.backgroundColor="green";
+
+// const ulElements=document.querySelectorAll('ul');
+// ulElements.forEach(ulElements=>{
+//     const lastChild=ulElements.lastElementChild;
+//     lastChild.style.backgroundColor='Green';
+// });
+
+//.................  .nextElementSibling...................
+
+// const element=document.getElementById('Orange');
+// const nextSibling=element.nextElementSibling;
+// nextSibling.style.backgroundColor="green";
+
+//........ .previousElementSibling..............
+// const element=document.getElementById('Onions');
+// const previousSibling=element.previousElementSibling;
+// previousSibling.style.backgroundColor='tomato';
+
+//................   .parentElement.....................
+
+// const element=document.getElementById('Carrots');
+// const parent=element.parentElement;
+// parent.style.backgroundColor="orange";
+
+//...............   .Children......................
+// const element=document.getElementById('fruits');
+// const children=element.children;
+// children[1].style.backgroundColor='green';
+
+
+
+
+
